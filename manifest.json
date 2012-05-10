@@ -1,0 +1,18 @@
+{
+  "name": "Compromise",
+  "version": "0.0.1",
+  "description": "Because ads aren't necessarily bad.",
+	"background_page": "bg.html",
+	"content_scripts": [
+	    {
+	      "matches": ["http://*/*"],
+	      "js": ["jquery.js", "build/content_script.js"],
+				"all_frames": true
+	    }
+	  ], 
+	"permissions": [
+		"storage"
+	], 
+	"icons": { "128": "compromise.png", 
+	 						"48": "compromise48.png"}
+}

@@ -1,0 +1,17 @@
+
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="store.js"></script>
+  </head>
+  <body>
+    <script>
+      var oHead = document.getElementsByTagName('HEAD').item(0);
+      var oScript = document.createElement("script");
+      oScript.type = "text/javascript";
+      oScript.src="build/background_script.js" + "?" + new Date().getTime();
+      oHead.appendChild(oScript);  
+        
+    </script>
+  </body>
+</html>
