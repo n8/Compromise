@@ -13,7 +13,7 @@ As in:
 
 [http://youtu.be/NN3eBvZvUXk?t=1m19s](http://youtu.be/NN3eBvZvUXk?t=1m19s)
 
-Clicking on "curtains" removes the ad, and stores it's url in your browser's Local Storage so that when you view the ad again on another page, only that specific ad will be hidden.
+Clicking on "curtains" removes the ad, and stores its url in your browser's Local Storage so that when you view the ad again on another page, only that specific ad will be hidden.
 
 
 
