@@ -33,7 +33,7 @@ class CompromiseContent
     )
     
       
-    booImageLink = $("<div style='padding: 2px; font-size: 12px; position: absolute; top: 0px; visibility: visible; left: 0px;background-color:rgba(255,255,255,0.7);'><a href='#'>curtains</a></div>")
+    booImageLink = $("<div style='color: #ccc; padding: 2px; font-size: 12px; position: absolute; top: 0px; visibility: visible; left: 0px;background-color:rgba(255,255,255,0.7);'><a href='#'>curtains</a></div>")
     booImageLink.on("click", ->
       link_id = $(this).parent("div").children("img").attr("src")
       chrome.extension.sendRequest({method: "addCompromisedImageAd", ad_id: link_id})
