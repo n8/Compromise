@@ -1,6 +1,6 @@
 {
   "name": "Compromise",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Because ads aren't necessarily bad.",
 	"background_page": "bg.html",
 	"content_scripts": [
